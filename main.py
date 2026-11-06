@@ -1,7 +1,7 @@
 import ollama
 import LLMcalls
 
-models = ["gemma3:1b", "granite4.2:latest"]
+models = ["gemma3:1b", "llama3.2:1b"]
 LLMcalls.add_to_csv("results.csv", ["Model", "Response"], new=True)
 prompt = "What is the capital of Sweden?"
 
