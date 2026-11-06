@@ -1,4 +1,7 @@
 Model;Response
 gemma3:1b;"The capital of Sweden is **Stockholm**. 
 
-It’s a very important distinction – Stockholm is a major city and a significant political and cultural center! 😊"
+It’s a wonderful city! 😊 
+
+Do you want to know anything else about Stockholm, like its history or famous landmarks?"
+ llama3.2:1b;The capital of Sweden is Stockholm.
