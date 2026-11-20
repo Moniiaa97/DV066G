@@ -47,6 +47,15 @@ class TestApp(unittest.TestCase):
                 correct += 1
         self.assertGreaterEqual(correct, 2)
 
+    # CONSISTENCY TEST (AUSTRALIA)
+    def test_knows_capital_of_australia(self):
+        correct = 0
+        for i in range(3):
+            answer = ask_capital("Australia")
+            if "Canberra" in answer:
+                correct += 1
+        self.assertGreaterEqual(correct, 2)
+
     # LLM AS JUDGE
     def test_judge_accepts_right_capital(self):
         answer = "The capital of Sweden is Stockholm."
